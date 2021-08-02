@@ -13,7 +13,7 @@
         ]
       },
       "request_body": "",
-      "url": "https://api.sandbox.paypal.com/v1/oauth2/token"
+      "url": "https://api-m.sandbox.paypal.com/v1/oauth2/token"
     },
     "response": {
       "body": "{\"error\":\"invalid_client\",\"error_description\":\"Client Authentication failed\"}",
@@ -44,7 +44,7 @@
         ]
       },
       "request_body": "",
-      "url": "https://api.sandbox.paypal.com/v1/oauth2/token"
+      "url": "https://api-m.sandbox.paypal.com/v1/oauth2/token"
     },
     "response": {
       "body": "{\"error\":\"invalid_client\",\"error_description\":\"Client Authentication failed\"}",

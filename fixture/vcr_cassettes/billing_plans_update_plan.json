@@ -9,7 +9,7 @@
       "method": "patch",
       "options": [],
       "request_body": "",
-      "url": "https://api.sandbox.paypal.com/v1/payments/billing-plans/P-3C560437P9994340RZAYE2OY"
+      "url": "https://api-m.sandbox.paypal.com/v1/payments/billing-plans/P-3C560437P9994340RZAYE2OY"
     },
     "response": {
       "body": "",

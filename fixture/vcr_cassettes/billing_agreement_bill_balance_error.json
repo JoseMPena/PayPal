@@ -9,7 +9,7 @@
       "method": "post",
       "options": [],
       "request_body": "",
-      "url": "https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-YLRFBEKMH34T/bill-balance"
+      "url": "https://api-m.sandbox.paypal.com/v1/payments/billing-agreements/I-YLRFBEKMH34T/bill-balance"
     },
     "response": {
       "body": "{\"name\":\"INVALID_OUTSTANDING_BALANCE\",\"message\":\"Outstanding balance must be > 0\",\"information_link\":\"https://developer.paypal.com/webapps/developer/docs/api/#INVALID_OUTSTANDING_BALANCE\",\"debug_id\":\"dff878cb51209\"}",

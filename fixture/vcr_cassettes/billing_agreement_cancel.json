@@ -9,7 +9,7 @@
       "method": "post",
       "options": [],
       "request_body": "",
-      "url": "https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-YLRFBEKMH34T/cancel"
+      "url": "https://api-m.sandbox.paypal.com/v1/payments/billing-agreements/I-YLRFBEKMH34T/cancel"
     },
     "response": {
       "body": "",

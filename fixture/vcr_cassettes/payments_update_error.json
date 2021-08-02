@@ -9,7 +9,7 @@
       "method": "patch",
       "options": [],
       "request_body": "",
-      "url": "https://api.sandbox.paypal.com/v1/payments/payment/PAY-56X02727YH154025YLEISYVI"
+      "url": "https://api-m.sandbox.paypal.com/v1/payments/payment/PAY-56X02727YH154025YLEISYVI"
     },
     "response": {
       "body": "{\"name\":\"VALIDATION_ERROR\",\"details\":[{\"field\":\"purchase_units\",\"issue\":\"Item currency codes should be same as the transaction currency code in all buckets\"},{\"field\":\"purchase_units[0]\",\"issue\":\"Item amount must add up to specified amount subtotal (or total if amount details not specified)\"}],\"message\":\"Invalid request - see details\",\"information_link\":\"https://developer.paypal.com/docs/api/payments/#errors\",\"debug_id\":\"33d7c947acf2f\"}",

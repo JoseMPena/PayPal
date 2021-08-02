@@ -2,7 +2,7 @@ defmodule PayPal.API do
   @moduledoc """
   Documentation for PayPal.API. This module is about the base HTTP functionality
   """
-  @base_url_sandbox "https://api.sandbox.paypal.com/v1/"
+  @base_url_sandbox "https://api-m.sandbox.paypal.com/v1/"
   @base_url_live "https://api.paypal.com/v1/"
 
   @doc """
@@ -24,7 +24,7 @@ defmodule PayPal.API do
   """
   @spec get_oauth_token :: {atom, any}
   def get_oauth_token do
-    headers = %{"Content-Type" => "application/x-www-form-urlencoded"}
+    headers = %{"Content-Type" => "application/x-www-form-urlencoded", "Accept" => "application/json"}
     options = [hackney: [basic_auth: {PayPal.Config.get.client_id, PayPal.Config.get.client_secret}]]
     form = {:form, [grant_type: "client_credentials"]}
 

@@ -9,7 +9,7 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api.sandbox.paypal.com/v1/payments/billing-plans/P-3C560437P9994340RZAYE21X"
+      "url": "https://api-m.sandbox.paypal.com/v1/payments/billing-plans/P-3C560437P9994340RZAYE21X"
     },
     "response": {
       "body": "{\"name\":\"TEMPLATE_ID_INVALID\",\"details\":[{\"field\":\"template id is invalid\",\"issue\":\"Incorrect Template Id.\"}],\"message\":\"\",\"information_link\":\"https://developer.paypal.com/webapps/developer/docs/api/#TEMPLATE_ID_INVALID\",\"debug_id\":\"1f692dc948f3d\"}",

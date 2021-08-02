@@ -159,7 +159,7 @@ defmodule PayPal.Billing.Agreements do
           %{create_time: "2017-05-02T08:04:20.411Z",
             description: "Plan with regular and trial payment definitions.",
             id: "P-3C560437P9994340RZAYE2OY",
-            links: [%{href: "https://api.sandbox.paypal.com/v1/payments/billing-plans/P-3C560437P9994340RZAYE2OY",
+            links: [%{href: "https://api-m.sandbox.paypal.com/v1/payments/billing-plans/P-3C560437P9994340RZAYE2OY",
                method: "GET", rel: "self"}],
             name: "Plan with Regular and Trial Payment Definitions", state: "CREATED",
             type: "FIXED", update_time: "2017-05-02T08:04:20.411Z"}}

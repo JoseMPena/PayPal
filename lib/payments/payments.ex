@@ -142,17 +142,17 @@ defmodule PayPal.Payments.Payments do
       ],
       links: [
         %{
-          href: "https://api.sandbox.paypal.com/v1/payments/payment/PAY-1B56960729604235TKQQIYVY",
+          href: "https://api-m.sandbox.paypal.com/v1/payments/payment/PAY-1B56960729604235TKQQIYVY",
           rel: "self",
           method: "GET"
         },
         %{
-          href: "https://api.sandbox.paypal.com/v1/payments//cgi-bin/webscr?cmd=_express-checkout&token=EC-60385559L1062554J",
+          href: "https://api-m.sandbox.paypal.com/v1/payments//cgi-bin/webscr?cmd=_express-checkout&token=EC-60385559L1062554J",
           rel: "approval_url",
           method: "REDIRECT"
         },
         %{
-          href: "https://api.sandbox.paypal.com/v1/payments/payment/PAY-1B56960729604235TKQQIYVY/execute",
+          href: "https://api-m.sandbox.paypal.com/v1/payments/payment/PAY-1B56960729604235TKQQIYVY/execute",
           rel: "execute",
           method: "POST"
         }

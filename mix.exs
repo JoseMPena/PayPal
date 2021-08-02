@@ -5,7 +5,7 @@ defmodule PayPal.Mixfile do
     [
       app: :pay_pal,
       version: "0.0.2",
-      elixir: "~> 1.4",
+      elixir: "~> 1.12",
       build_embedded: Application.get_env(:pay_pal, :environment) == :prod,
       start_permanent: Application.get_env(:pay_pal, :environment) == :prod,
       description: description(),
@@ -26,15 +26,13 @@ defmodule PayPal.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 0.13"},
-      {:poison, "~> 3.1"},
-      {:oauth2, "~> 0.9"},
-      {:exvcr, "~> 0.8", only: [:dev, :test]},
-      {:ex_doc, "~> 0.15", only: [:dev, :docs]},
-      {:excoveralls, "~> 0.6", only: [:dev, :test]},
-      {:inch_ex, "~> 0.5", only: [:dev, :docs]},
-      {:credo, "~> 0.7", only: :dev},
-      {:dialyxir, "~> 0.5", only: [:dev, :test], runtime: false}
+      {:httpoison, "~> 1.8"},
+      {:poison, "~> 5.0"},
+      {:oauth2, "~> 2.0"},
+      {:exvcr, "~> 0.13", only: [:dev, :test]},
+      {:ex_doc, "~> 0.25", only: [:dev, :docs]},
+      {:excoveralls, "~> 0.14", only: [:dev, :test]},
+      {:dialyxir, "~> 1.1", only: [:dev, :test], runtime: false}
     ]
   end
 
@@ -48,8 +46,8 @@ defmodule PayPal.Mixfile do
     [
       licenses: ["MIT"],
       keywords: ["Elixir", "PayPal", "REST", "Payments", "API"],
-      maintainers: ["Zen Savona"],
-      links: %{"GitHub" => "https://github.com/zensavona/paypal",
+      maintainers: ["Zen Savona", "José M. Peña"],
+      links: %{"GitHub" => "https://github.com/JoseMPena/paypal",
                "Docs" => "https://hexdocs.pm/paypal"}
     ]
   end

@@ -9,7 +9,7 @@
       "method": "post",
       "options": [],
       "request_body": "",
-      "url": "https://api.sandbox.paypal.com/v1/payments/billing-agreements"
+      "url": "https://api-m.sandbox.paypal.com/v1/payments/billing-agreements"
     },
     "response": {
       "body": "{\"name\":\"VALIDATION_ERROR\",\"details\":[{\"field\":\"start_date\",\"issue\":\"Agreement start date is required, should be valid and greater than the current date. Should be consistent with ISO 8601 Format\"}],\"message\":\"Invalid request. See details.\",\"information_link\":\"https://developer.paypal.com/webapps/developer/docs/api/#VALIDATION_ERROR\",\"debug_id\":\"b87df3c0acedf\"}",
